@@ -1,7 +1,7 @@
 require('dotenv').config();
 const  connectDB = require('./DB/Connect');
 const Product = require('./Models/Product');
-const ProductJson = require('./Products.json');
+const ProductJson = require('../Products.json');
 
 
 const start = async () => {
